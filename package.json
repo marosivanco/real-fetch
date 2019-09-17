@@ -7,6 +7,7 @@
 	],
 	"author": "Maros Ivanco <maros.ivanco@gmail.com>",
 	"license": "Apache 2.0",
+	"main": "src",
 	"devDependencies": {
 		"prettier": "1.15.3"
 	},
