@@ -69,6 +69,18 @@ import attach from "./attach";
 attach(window);
 ```
 
+# Description
+
+You'll quickly notice if you try using native fetch, that some parts required for real use are missing:
+
+- interceptors (to make error handling global)
+- custom connection timeout (to fail fast instead of waiting forever)
+- upload and download progress observation
+
+The library decorates (native) fetch with support for interceptors and timeouts.
+
+Upload progress observation issue is not solvable at the moment.
+
 # API
 
 ## create
